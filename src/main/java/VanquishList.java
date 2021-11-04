@@ -1,4 +1,4 @@
-package main.java.com.VanquishList;
+package com.VanquishList;
 //import java.util.ArrayList;
 
 /**
@@ -209,7 +209,7 @@ public class VanquishList{
 	 *          as the rest of the array
 	 */
 	public void set(int index, Object o){
-		if (index > 0 && index < size){
+		if (index >= 0 && index < size){
 			elementData[index] = o;
 		}
 		else{
