@@ -1,14 +1,14 @@
-//import java.util.ArrayList;
+package revatureCollections;//import java.util.ArrayList;
 
 /**
- * VanquishList is an implementation of ArrayList
+ * revatureCollections.VanquishList is an implementation of ArrayList
  * without using the collections library
  */
 
 public class VanquishList{
 	/**
 	 * Size, Capacity, DEFAULT_SIZE, and elementData
-	 * Size tracks the current size of the VanquishList (tm)
+	 * Size tracks the current size of the revatureCollections.VanquishList (tm)
 	 *
 	 * Capacity tracks the current max size of the array
 	 * before we need to resize it.
@@ -67,7 +67,7 @@ public class VanquishList{
 	/**
 	 * The .clone() function returns a copy of the list element
 	 * for element. This makes a deep copy and adds each element
-	 * of the original list to a new VanquishList and returns
+	 * of the original list to a new revatureCollections.VanquishList and returns
 	 * the new list
 	 *
 	 * @return - The new list returned with each element and
@@ -84,7 +84,7 @@ public class VanquishList{
 
 	/**
 	 * setCapacity is used privately to change the max size
-	 * variable of the VanquishList without accessing the
+	 * variable of the revatureCollections.VanquishList without accessing the
 	 * variable directly.
 	 *
 	 * @param capacity - This variable takes in the new capacity

@@ -9,5 +9,5 @@ How to install
             <version>1.0</version>
         </dependency>
 ````
-3. ????
+3. ```import  revatureCollections.*;```
 4. profit

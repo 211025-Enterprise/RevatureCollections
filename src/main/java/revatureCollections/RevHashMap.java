@@ -1,3 +1,7 @@
+package revatureCollections;
+
+;
+
 public class RevHashMap<E, T> {
 
 	private E[] keys;
