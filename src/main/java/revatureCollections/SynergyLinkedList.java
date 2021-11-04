@@ -1,6 +1,4 @@
-
-
-
+package revatureCollections;
 
 public class SynergyLinkedList <E> {
 

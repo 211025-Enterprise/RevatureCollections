@@ -1,4 +1,4 @@
-package main.java.com.hashset;
+package revatureCollections;
 
 public class HashSetAmplifier<T> {
 
