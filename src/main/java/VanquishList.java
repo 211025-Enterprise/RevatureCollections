@@ -1,4 +1,3 @@
-package com.VanquishList;
 //import java.util.ArrayList;
 
 /**
