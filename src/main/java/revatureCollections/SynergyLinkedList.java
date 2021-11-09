@@ -70,7 +70,7 @@ public class SynergyLinkedList <E> {
 		count++;
 	} //add to head
 	public void addLast(E val){
-		if (tail == null) addFirst(val);
+		if (tail == null) {addFirst(val);return;}
 		//make new node with value
 		Node<E> node = new Node<>(val);
 		//Set new node to point to null
